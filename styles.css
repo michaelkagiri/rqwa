@@ -1,0 +1,70 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.question {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.options {
+  margin-top: 10px;
+}
+
+.result-item {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.correct {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  border-left: 5px solid #dc3545;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
